@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/Home">
+
+
+    <fragment
+        android:id="@+id/Home"
+        tools:layout="@layout/item_home_fragment"
+        android:label="HomeFragment"
+        android:name="com.example.sellvaseflower.Fragment.HomeFragment"/>
+
+    <fragment
+        android:id="@+id/Shop"
+        tools:layout="@layout/item_shop_fragment"
+        android:label="ShopFragment"
+        android:name="com.example.sellvaseflower.Fragment.ShopFragment"/>
+
+    <fragment
+        android:id="@+id/Order"
+        tools:layout="@layout/item_order_fragment"
+        android:label="OrderFragment"
+        android:name="com.example.sellvaseflower.Fragment.OrderFragment"/>
+
+    <fragment
+        android:id="@+id/Profile"
+        tools:layout="@layout/item_profile_fragment"
+        android:label="ProfileFragment"
+        android:name="com.example.sellvaseflower.Fragment.ProfileFragment"/>
+
+</navigation>
